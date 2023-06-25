@@ -1,0 +1,38 @@
+Implementasi OOP
+
+Kelas            : D-Teknik Informatika
+Kelompok         : 5
+Anggota Kelompok :
+• Fransiscus Kristian Susanto (40621100012)
+• Iqbal Maulana Sujana (0620101067)
+• Syafira Iedha Maharani Hamzah (40621100010)
+• M. Arifin Zainuddin Patty (40621100108)
+
+
+1)  Object/class = \App\Controllers\Home.php line 7 (class Home), line 10 ($tamu), line 15 (tamu), dan line 61 (tamu)
+
+2)  Inheritance (menggunakan properti/syntax extends) = \Myth\Auth\Src\Models\UserModel.php line 13 (extends)
+
+3)  Encapsulation (menggunakan visibility atau access modifier, seperti public, protected, private) = \App\Controllers\
+    Home.php line 10 (protected $tamu) yang mengarah pada line 15 (tamu) dan line 22 (tamu).
+
+4)  Polymorphism = \App\Views\dashboard.php line 32 (user()->username;) mengarah pada App\ThirdParty\myth-auth\src\Helpers\
+    auth_helper.php line 23 (user()). Kalau pada helpers, kita dapat menekan line 3 (Myth\Auth\Entities\User), lalu akan diarahkan 
+    ke App\ThirdParty\myth-auth\src\Entities\User.php
+
+5)  Interface (menggunakan implements) = \Myth\Auth\Src\Authentication\EmailActivator.php line 13 (implements)
+
+6)  Super (menggunakan $_SESSION) = \Myth\Auth\Src\Controllers\AuthController.php line 125 ($_SESSION)
+
+7)  Abstract class (menggunakan abstract) = \Myth\Auth\Src\Authentication\BaseActivator.php line 8 (abstract) dan line 25 (abstract 
+    public function)
+
+8)  Static Function (contohnya, public static function) = \Myth\Auth\Src\Config\Registrar.php line 18 (static function)
+
+9)  Namespaces (menggunakan namespace) = \App\Controllers\BaseController.php line 3 (namespace)
+
+10) Constructor (menggunakan __construct) = \App\Controllers\PegawaiController.php line 13 (__construct)
+
+11) Exceptions (menggunakan try...catch dan/atau throw)
+    -> \Myth\Auth\Src\Commands\CreateGroup.php line 36 (try) dan line 42 (catch)
+    -> \Myth\Auth\Src\Authentication\LocalAuthenticator.php line 70 (throw)
