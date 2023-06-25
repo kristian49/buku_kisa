@@ -23,4 +23,4 @@ ingin berkunjung di Pustakaloka Universitas Widyatama.
 
 Untuk mengakses halaman admin, Anda dapat mengisi form sebagai berikut.
 1) Admin: username (adminkisa) dan password (tugaspbo2)
-2) User: username (kristian1) dan password (inikristian)
+2) User: username (arifin) dan password (iniarifin)
