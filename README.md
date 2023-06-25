@@ -10,7 +10,7 @@ ingin berkunjung di Pustakaloka Universitas Widyatama.
 
 1) CodeIgniter 4 [official site](https://codeigniter.com).
 2) XAMPP [official site](https://www.apachefriends.org/).
-3) Composer [official_site](https://getcomposer.org/).
+3) Composer [official site](https://getcomposer.org/).
 4) Salah satu teks editor, contohnya Visual Studio Code [official site](https://code.visualstudio.com/).
 5) File import database (yang ada di dalam folder Task Distribution, Database SQL, dan Implementasi OOP)
 6) (Opsional) Extensions (PHP Intelephense dan Prettier).
